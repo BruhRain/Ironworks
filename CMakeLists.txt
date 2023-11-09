@@ -25,4 +25,4 @@ file(GLOB_RECURSE SOURCE_FILES
 # Built as a static library by default.
 add_library(${PROJECT_NAME} STATIC ${SOURCE_FILES})
 
-target_include_directories(${PROJECT_NAME} PUBLIC Source)
+target_include_directories(${PROJECT_NAME} PUBLIC Source Source/Utilities Source/Interfaces Source/Input)
