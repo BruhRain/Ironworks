@@ -24,3 +24,5 @@ file(GLOB_RECURSE SOURCE_FILES
 # If you don't want to build as a library, just copy the source files into your project.
 # Built as a static library by default.
 add_library(${PROJECT_NAME} STATIC ${SOURCE_FILES})
+
+target_include_directories(${PROJECT_NAME} PUBLIC Source)
