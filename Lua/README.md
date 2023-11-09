@@ -1,4 +1,4 @@
-# Lua Implementation of <FRAMEWORK_NAME>
+# Lua Implementation of Ironworks
 
 Feel free to copy the project as a boilerplate for your project.
 
